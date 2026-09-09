@@ -140,6 +140,9 @@ redolist=[]
 
 tool = "pencil"
 
+#previous mouse position (seeded so the first frame has a value to compare against)
+omx,omy = mouse.get_pos()
+
 
 running =True
 while running:
